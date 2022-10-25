@@ -1,0 +1,7 @@
+CHANGES:
+
+TO DO:
+
+QUESTIONS:
+    -In location, how to center text without logo 
+    -where to specify h1, h2 etc?
