@@ -1,7 +1,12 @@
 CHANGES:
 
+    Restaurants:
+        -defined height in the cards themselves and set the section height to fit content, thoughts?
+
 TO DO:
+    - Center location text
 
 QUESTIONS:
     -In location, how to center text without logo 
-    -where to specify h1, h2 etc?
+    -Best way to add numbers to list in how it works? Ordered list + decoration?
+    -Anything wrong with using same names for classes as long as they're nested?
