@@ -1,12 +1,19 @@
 CHANGES:
 
-    Restaurants:
+    LOCATION:
+        -used negative margin to center location text.
+
+    RESTAURANTS:
         -defined height in the cards themselves and set the section height to fit content, thoughts?
+    
+    FOOTER:
+        -changed html space in first link to &nbsp;
 
 TO DO:
-    - Center location text
+    
 
 QUESTIONS:
-    -In location, how to center text without logo 
     -Best way to add numbers to list in how it works? Ordered list + decoration?
-    -Anything wrong with using same names for classes as long as they're nested?
+        -OL + decoration
+    -Use more variables
+    
