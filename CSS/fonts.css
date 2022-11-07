@@ -1,2 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");/*# sourceMappingURL=fonts.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-family: "Shrikhand";
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin: 0;
+  font-family: "Roboto";
+}/*# sourceMappingURL=fonts.css.map */

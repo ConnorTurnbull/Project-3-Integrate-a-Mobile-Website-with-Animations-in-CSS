@@ -1,0 +1,45 @@
+@mixin body {
+    font-family: $font-main;
+    font-size: 1.2rem;
+    margin: 0;
+
+}
+
+@mixin colored-button {
+    color: white;
+    font-size: 1rem;
+    background-image: linear-gradient($color-pink, $color-purple);
+    border-radius: 2rem;
+    padding: 1rem;
+    border: none;
+    
+}
+
+@mixin footer {
+    width: 100%;
+    height: fit-content;
+    background-color: $color-dark-grey;
+    padding: 1rem;
+    color: white;
+
+    .logo {
+        font-weight: lighter;
+        padding: 0.5rem 0;
+
+    }
+
+    .list {
+        list-style: none;
+        margin: 0;
+        padding: 1rem 0rem;
+        line-height: 2rem;
+
+    }
+
+    .icon {
+        padding-right: 0.8rem;
+        font-size: 1rem;
+    
+    }
+    
+}

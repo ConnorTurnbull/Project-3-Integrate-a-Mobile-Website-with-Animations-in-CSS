@@ -9,27 +9,54 @@
     <script src="https://kit.fontawesome.com/3411b57b29.js" crossorigin="anonymous"></script>
 
     <title>A la Francaise Menu</title>
+    
+    <link href="CSS/menus.css" type="text/css" rel="stylesheet">
 
 </head>
-<body>
+
+<body class="body">
     
-    <header>
+    <header class="header">
 
         <i class="fa-solid fa-arrow-left back-arrow"></i>
         <img class="logo" src="images/ohmyfood@2x.svg" alt="OhMyFood logo">
 
     </header>
 
-    <section class="main">
+    <div class="restaurant-image">
+        
+        <img class="image" src="images/bastille.jpg" alt="Bastille restaurant image">
 
-        <h1>Bastille</h1><i class="fa-regular fa-heart icon"></i>
+    </div>
+    
+    <section class="main">
+        
+        <div class="title">
+
+        <h2 class="name">Bastille</h2><i class="fa-regular fa-heart icon"></i>
+
+        </div>
         
         <h3>ENTREES</h3>
 
-        <button class="menu-button"><p class="dish">Citrus Squid Carpaccio</p><p class="sub-text">With orange zest</p><p class="price">25€</p></button>
-        <button class="menu-button"><p class="dish">Grandmother's Vegetable Soup</p><p class="sub-text">Carrots, parsnips, Jerusalem artichoke</p><p class="price">35€</p></button>
-        <button class="menu-button"><p class="dish">Onion Soup</p><p class="sub-text">Revisted</p><p class="price">20€</p></button>
+        <button class="menu-button"><div class="text"><p class="dish">Citrus Squid Carpaccio</p><p class="sub-text">With orange zest</p></div><p class="price">25€</p></button>
+        <button class="menu-button"><div class="text"><p class="dish">Grandmother's Vegetable Soup</p><p class="sub-text">Carrots, parsnips, Jerusalem artichoke</p></div><p class="price">35€</p></button>
+        <button class="menu-button"><div class="text"><p class="dish">Onion Soup</p><p class="sub-text">Revisted</p></div><p class="price">20€</p></button>
         
+        <h3>MAIN DISH</h3>
+
+        <button class="menu-button"><div class="text"><p class="dish">Scallops</p><p class="sub-text">With mashed parsnip</p></div><p class="price">40€</p></button>
+        <button class="menu-button"><div class="text"><p class="dish">Magret de canard</p><p class="sub-text">With mashed potatoes</p></div><p class="price">35€</p></button>
+        <button class="menu-button"><div class="text"><p class="dish">Game Hen</p><p class="sub-text">With vegetable gnocchis</p></div><p class="price">44€</p></button>
+
+        <h3>DESSERTS</h3>
+
+        <button class="menu-button"><div class="text"><p class="dish">Floral Ice Cream</p><p class="sub-text">With hazelnut butter</p></div><p class="price">18€</p></button>
+        <button class="menu-button"><div class="text"><p class="dish">Chocolate Lava Cake</p><p class="sub-text">Revisited</p></div><p class="price">22€</p></button>
+        <button class="menu-button"><div class="text"><p class="dish">Napolean</p><p class="sub-text">With blueberries and marzipan</p></div><p class="price">23€</p></button>
+        
+        <button class="button">Order</button>
+
     </section>
 
     <footer class="footer">

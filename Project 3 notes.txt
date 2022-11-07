@@ -4,16 +4,18 @@ CHANGES:
         -used negative margin to center location text.
 
     RESTAURANTS:
-        -defined height in the cards themselves and set the section height to fit content, thoughts?
     
     FOOTER:
         -changed html space in first link to &nbsp;
+    
+    OTHER:
+        -html for first menu page complete
+        -created mixins
+        -header styling moved to fonts
 
 TO DO:
-    
+    -sizing changes
 
 QUESTIONS:
-    -Best way to add numbers to list in how it works? Ordered list + decoration?
-        -OL + decoration
-    -Use more variables
+    -mixins, am i using them properly
     
