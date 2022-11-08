@@ -59,6 +59,15 @@ h3 {
 .nav .text {
   margin: 3rem 0rem;
 }
+.nav .button {
+  color: white;
+  font-size: 1rem;
+  background-image: linear-gradient(#ff79da, #9356DC);
+  border-radius: 2rem;
+  padding: 1rem;
+  border: none;
+}
+
 .how-it-works {
   height: fit-content;
   padding: 1.5rem;
