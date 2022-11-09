@@ -1,12 +1,10 @@
 CHANGES:
 
-    LOCATION:
-        -used negative margin to center location text.
+    HOME PAGE:
+        -links added for all menu cards to corresponding menu page
 
-    RESTAURANTS:
-    
-    FOOTER:
-        -changed html space in first link to &nbsp;
+    MENU PAGES:
+        -all pages created
     
     OTHER:
         -html for first menu page complete
@@ -15,9 +13,13 @@ CHANGES:
 
 TO DO:
     -sizing changes
-
+    -animations
+    -validator cleanup
+    
 QUESTIONS:
-    -mixins, am i using them properly
+    -mixins, am i using them properly?
+    -spec says click contact, a link to an email address is made. what do?
+    -anchor for back arrow in menus won't align
     
 
 

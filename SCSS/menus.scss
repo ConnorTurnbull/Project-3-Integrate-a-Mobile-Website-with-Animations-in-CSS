@@ -20,9 +20,15 @@
     .back-arrow {
         padding: 1rem;
         align-self: center;
-
+        position: relative;
+    
+        .link {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+        }
     }
-
 }
 
 .restaurant-image {
