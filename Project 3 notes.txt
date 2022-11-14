@@ -12,14 +12,14 @@ CHANGES:
 
 TO DO:
     -fix header image as doesn't scale well
-    
+    -change card links on home page - get rid of span
     -sizing changes
     -animations
     -validator cleanup
     -check against tech spec
     
 QUESTIONS:
-    -can't get header aligned on menu pages
+    -can't get header aligned on menu pages - fix position  of arrow
 
     
 

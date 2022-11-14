@@ -24,7 +24,7 @@
     }
 
     .image {
-        align-self: center;
+        justify-self: center;
         
     }
 }
@@ -62,12 +62,28 @@
             margin-right: auto;
 
         }
+        
+        .icon-container {
+            position: relative;
+
+        }
 
         .icon {
             align-self: center;
             padding: 0rem 1rem;
             font-size: 1.5rem;
-            font-weight: lighter;
+
+        }
+
+        .icon-filled {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: purple;
+            overflow: hidden;
+            transition: 0.5s top;
 
         }
     }
