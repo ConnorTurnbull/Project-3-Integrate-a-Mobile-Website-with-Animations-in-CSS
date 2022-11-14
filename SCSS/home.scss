@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+
+
 .body {
     @include body;
 
@@ -186,12 +188,217 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            
         }
 
+        .new {
+            display: flex;
+            width: 80px;
+            height: 30px;
+            background-color: $color-cyan;
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            color: darkcyan;
+            
+        }
 }
 
 .footer {
     @include footer;
 
+    .link {
+        text-decoration: none;
+        color: inherit;
+
+    }
+}
+
+
+@media (min-width: 768px)  {
+
+    .body {
+        font-size: 1.8rem;
+
+    }
+
+    .header {
+
+        .main-logo {
+            padding: 3rem 12rem;
+
+        }
+
+    }
+
+    .location {
+
+        .location-pin {
+            font-size: 2rem;
+
+        }
+
+    }
+
+    .how-it-works {
+        
+        .list {
+            flex-direction: row;
+        }
+    
+        .button {
+            font-size: 1.2rem;
+
+        }
+
+    }
+
+    .restaurants {
+
+        .card {
+            flex-direction: row;
+            border-radius: 2rem;
+        }
+
+        .description {
+            width: 50%;
+        }
+
+        .text {
+            font-size: 1.8rem;
+            padding: 3rem 1rem;
+
+        }
+
+        .image {
+            height: 100%;
+            border-radius: 2rem;
+            width: 50%;
+        }
+
+        .new {
+            left: 15px;
+        }
+
+    .footer {
+
+        .list {
+            font-size: 1.2rem;
+        }
+
+    }
+    }
+}
+
+@media (min-width: 992px) {
+
+    .body {
+        font-size: 3rem;
+
+    }
+
+    .header {
+        
+        .main-logo {
+            padding: 5rem 26rem;
+
+        }
+        
+    }
+
+    .location {
+
+        .location-pin {
+            font-size: 3rem;
+
+        }
+
+    }
+
+    h1 {
+        font-size: 3rem;
+
+    }
+
+    .nav {
+        
+        .button {
+            font-size: 2rem;
+
+        }
+
+    }
+
+    .how-it-works {
+        
+        .button {
+            font-size: 2rem;
+
+        }
+
+        .number {
+            font-size: 2rem;
+            border-radius: 3rem;
+            padding: 0.5rem 1rem;
+
+        }
+    }
+
+    .restaurants {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5rem;
+
+        .title {
+            width: 100%;
+
+        }
+        .card {
+            flex-direction: column;
+            width: 45%;
+            height: 500px;
+
+        }
+
+        .description {
+            width: 100%;
+            height: 30%;
+        }
+
+        .image {
+            width: 100%;
+            height: 70%;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            
+        }
+
+        .icon {
+            font-size: 3rem;
+
+        }
+
+    }
+
+    .footer {
+
+        .logo {
+            font-size: 2rem;
+
+        }
+
+        .list {
+            font-size: 1.5rem;
+
+        }
+
+        .icon {
+            font-size: 1.2rem;
+
+        }
+
+    }
 }

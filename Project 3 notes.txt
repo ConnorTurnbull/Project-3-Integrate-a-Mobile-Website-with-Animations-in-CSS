@@ -1,25 +1,26 @@
 CHANGES:
 
     HOME PAGE:
-        -links added for all menu cards to corresponding menu page
-
+        -tablet layout
+        -desktop layout
+        
     MENU PAGES:
-        -all pages created
+        -back arrow functional
     
     OTHER:
-        -html for first menu page complete
-        -created mixins
-        -header styling moved to fonts
+        -all menu pages created
 
 TO DO:
+    -fix header image as doesn't scale well
+    
     -sizing changes
     -animations
     -validator cleanup
+    -check against tech spec
     
 QUESTIONS:
-    -mixins, am i using them properly?
-    -spec says click contact, a link to an email address is made. what do?
-    -anchor for back arrow in menus won't align
+    -can't get header aligned on menu pages
+
     
 
 

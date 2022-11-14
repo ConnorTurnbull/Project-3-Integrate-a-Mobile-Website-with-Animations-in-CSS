@@ -2,6 +2,12 @@
 @import "fonts.scss";
 @import "mixins.scss";
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .body {
     @include body;
     
@@ -11,29 +17,21 @@
     width: 100%;
     height: 4rem;
     display: flex;
-    justify-content: left;
 
-    .logo{
-        padding: 1rem 2.5rem;
+    .icon {
+        align-self: center;
+        padding: 1rem;
     }
 
-    .back-arrow {
-        padding: 1rem;
+    .image {
         align-self: center;
-        position: relative;
-    
-        .link {
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            z-index: 1;
-        }
+        
     }
 }
 
 .restaurant-image {
     object-fit: fill;
-     
+    
     .image {
         height: fit-content;
         width: 100%;
@@ -67,7 +65,7 @@
 
         .icon {
             align-self: center;
-            padding: 0rem 2rem;
+            padding: 0rem 1rem;
             font-size: 1.5rem;
             font-weight: lighter;
 
@@ -120,4 +118,9 @@
 .footer {
     @include footer;
 
+    .link {
+        text-decoration: none;
+        color: inherit;
+
+    }
 }
