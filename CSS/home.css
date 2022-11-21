@@ -34,9 +34,11 @@ h3 {
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 150px;
 }
 .header .main-logo {
   padding: 1.5rem 5rem;
+  height: 100%;
   box-shadow: 0px 2px 5px 0px #B5B5B5;
 }
 
@@ -131,18 +133,13 @@ h3 {
   display: flex;
   flex-direction: column;
   position: relative;
-}
-.restaurants .link {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+  background-color: white;
 }
 .restaurants .description {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 25%;
+  height: 20%;
 }
 .restaurants .text {
   width: 80%;
@@ -155,10 +152,13 @@ h3 {
 }
 .restaurants .image {
   width: 100%;
-  height: 75%;
+  height: 100%;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   object-fit: cover;
+}
+.restaurants .link {
+  height: 80%;
 }
 .restaurants .name {
   width: 100%;
@@ -168,15 +168,6 @@ h3 {
 .restaurants .city {
   width: 100%;
   margin: 0;
-}
-.restaurants .icon {
-  width: 20%;
-  height: 100%;
-  padding: 1rem;
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .restaurants .new {
   display: flex;
@@ -249,7 +240,11 @@ h3 {
   .restaurants .image {
     height: 100%;
     border-radius: 2rem;
-    width: 50%;
+    width: 100%;
+  }
+  .restaurants .link {
+    height: 100%;
+    width: 55%;
   }
   .restaurants .new {
     left: 15px;
@@ -260,60 +255,134 @@ h3 {
 }
 @media (min-width: 992px) {
   .body {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .header .main-logo {
-    padding: 5rem 26rem;
+    padding: 3rem 5rem;
+  }
+  .location {
+    padding: 3rem;
   }
   .location .location-pin {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+  .nav {
+    padding: 3rem;
   }
   .nav .button {
-    font-size: 2rem;
+    font-size: 1.6rem;
+  }
+  .how-it-works {
+    padding: 3rem;
   }
   .how-it-works .button {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .how-it-works .number {
-    font-size: 2rem;
+    font-size: 1.6rem;
     border-radius: 3rem;
     padding: 0.5rem 1rem;
   }
   .restaurants {
+    padding: 3rem;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 5rem;
+    justify-content: space-between;
+    gap: 3rem;
   }
   .restaurants .title {
     width: 100%;
   }
   .restaurants .card {
     flex-direction: column;
-    width: 45%;
-    height: 500px;
+    width: 47%;
+    height: 600px;
   }
   .restaurants .description {
     width: 100%;
-    height: 30%;
+    height: 20%;
+    /* hover area */
+  }
+  .restaurants .description .heart-container {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .restaurants .description .heart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .restaurants .description .heart a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    position: relative;
+    overflow: hidden;
+  }
+  .restaurants .description .fa-regular {
+    font-size: 2rem;
+    position: absolute;
+    z-index: 3;
+  }
+  .restaurants .description .heart a .fa-solid {
+    font-size: 2rem;
+    line-height: 80px;
+    position: relative;
+    z-index: 1;
+  }
+  .restaurants .description .heart a::after {
+    content: "";
+    width: 100%;
+    height: 2rem;
+    top: 1.6rem;
+    left: 0;
+    background: white;
+    position: absolute;
+    transition: 0.5s;
+    z-index: 3;
+  }
+  .restaurants .description .heart a:active::after {
+    top: -90px;
+  }
+  .restaurants .description .icon {
+    width: 20%;
+    height: 20%;
+    padding: 1rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .restaurants .image {
     width: 100%;
-    height: 70%;
+    height: 100%;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
+  .restaurants .link {
+    width: 100%;
+    height: 80%;
+  }
   .restaurants .icon {
     font-size: 3rem;
+  }
+  .footer {
+    padding: 3rem;
   }
   .footer .logo {
     font-size: 2rem;
   }
   .footer .list {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
   .footer .icon {
     font-size: 1.2rem;

@@ -3,15 +3,18 @@ CHANGES:
     HOME PAGE:
         -tablet layout
         -desktop layout
-        
+        -sizing changes
+        -fixed menu card/links
+
     MENU PAGES:
-        -back arrow functional
+        -back arrow functional and aligned
+        -tablet layout done
+        -desktop layout needs header image adjustment
     
     OTHER:
-        -all menu pages created
 
 TO DO:
-    -fix header image as doesn't scale well
+    -fix header logo image as doesn't scale well
     -change card links on home page - get rid of span
     -sizing changes
     -animations
@@ -19,8 +22,13 @@ TO DO:
     -check against tech spec
     
 QUESTIONS:
-    -can't get header aligned on menu pages - fix position  of arrow
-
+    -scaling, feels okay at 1080 but gets too big beyond that - best way to approach?
+    -header image scaling in mobile but not others?
+    -better way of spacing cards out on homepage to make more even?
+    -really struggling with animations 
+        - lack of resources for css only animations to learn from. wasting time searching
+        - can build in test files but struggling to implement into main files with other elements involved
+        - because icons are solid elements, can't get hover area to be within the icon itself only outside?
     
 
 

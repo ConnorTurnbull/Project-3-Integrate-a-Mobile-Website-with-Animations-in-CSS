@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.heart-container {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+
+.heart {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.heart a {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+    position: relative;
+    overflow: hidden;
+
+    
+}
+
+.fa-regular {
+    font-size: 50px;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.heart a .fa-solid {
+    font-size: 50px;
+    line-height: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.heart a::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    background: white;
+    position: absolute;
+    transition: 1.5s;
+    z-index: 2;
+}
+
+.heart a:hover::after {
+    top: -90px;
+
+}
+
