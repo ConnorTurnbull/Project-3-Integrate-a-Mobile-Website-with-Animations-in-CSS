@@ -4,8 +4,9 @@ CHANGES:
         -tablet layout
         -desktop layout
         -sizing changes
-        -fixed menu card/links
-
+        -fixed menu card/links 
+        -heart animations fixed w/ correct coloring
+        
     MENU PAGES:
         -back arrow functional and aligned
         -tablet layout done
@@ -15,11 +16,12 @@ CHANGES:
 
 TO DO:
     -fix header logo image as doesn't scale well
-    -change card links on home page - get rid of span
-    -sizing changes
+    -general sizing + alignment changes
     -animations
+        -home page loading animations
+        -menu page dish load in animations
+        -menu page dish favourite animations
     -validator cleanup
-    -check against tech spec
     
 QUESTIONS:
     -scaling, feels okay at 1080 but gets too big beyond that - best way to approach?
