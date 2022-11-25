@@ -29,6 +29,39 @@ h3 {
   font-size: 1.2rem;
   margin: 0;
 }
+.body .loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: rgba(211, 211, 211, 0.8);
+  animation: fade 5s linear forwards;
+  position: fixed;
+}
+.body .loading::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid #dddddd;
+  border-color: #eaeaea;
+  border-top-color: #9356DC;
+  border-radius: 50%;
+  animation: loading 1s linear infinite;
+}
+@keyframes fade {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100%;
+  }
+}
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 .header {
   display: flex;

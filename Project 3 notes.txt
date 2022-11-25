@@ -6,6 +6,7 @@ CHANGES:
         -sizing changes
         -fixed menu card/links 
         -heart animations fixed w/ correct coloring
+        -loading spinner animation
         
     MENU PAGES:
         -back arrow functional and aligned
@@ -18,9 +19,9 @@ TO DO:
     -fix header logo image as doesn't scale well
     -general sizing + alignment changes
     -animations
-        -home page loading animations
         -menu page dish load in animations
-        -menu page dish favourite animations
+        -menu page dish favourite animations - animation mostly done, fix text wrapping and icon overlap at start of animation
+    -fix restaurant images in menu pages on desktop
     -validator cleanup
     
 QUESTIONS:

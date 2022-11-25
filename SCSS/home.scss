@@ -13,6 +13,46 @@
 .body {
     @include body;
 
+    .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background: rgb(211, 211, 211, 80%);
+        animation: fade 5s linear forwards;
+        
+        position: fixed;
+    }
+
+    .loading::before {
+        content: '';
+        width: 50px;
+        height: 50px;
+        border: 10px solid #dddddd;
+        border-color: $color-mid-grey;
+        border-top-color: $color-purple;
+        border-radius: 50%;
+        animation: loading 1s linear infinite;
+    }
+    
+    @keyframes fade {
+        0%, 100% {
+            opacity: 0;
+        }
+        
+        50% {
+            opacity: 100%;
+        }
+    }
+    
+    @keyframes loading {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+       
 }
 
 .header {
