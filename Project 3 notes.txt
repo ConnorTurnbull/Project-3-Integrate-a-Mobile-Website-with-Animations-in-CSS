@@ -1,18 +1,14 @@
 CHANGES:
 
     HOME PAGE:
-        -tablet layout
-        -desktop layout
         -sizing changes
-        -fixed menu card/links 
         -heart animations fixed w/ correct coloring
         -loading spinner animation
         
     MENU PAGES:
-        -back arrow functional and aligned
-        -tablet layout done
-        -desktop layout needs header image adjustment
-    
+        -favourite animations added
+        -sizing/alignment changes
+
     OTHER:
 
 TO DO:
@@ -27,12 +23,5 @@ TO DO:
 QUESTIONS:
     -scaling, feels okay at 1080 but gets too big beyond that - best way to approach?
     -header image scaling in mobile but not others?
-    -better way of spacing cards out on homepage to make more even?
-    -really struggling with animations 
-        - lack of resources for css only animations to learn from. wasting time searching
-        - can build in test files but struggling to implement into main files with other elements involved
-        - because icons are solid elements, can't get hover area to be within the icon itself only outside?
-    
-
-
-download lighthouse for project 4
+    -better way of spacing cards out on homepage to make more even and consistent with screen width scaling?
+    -text hiding for menu buttons?
