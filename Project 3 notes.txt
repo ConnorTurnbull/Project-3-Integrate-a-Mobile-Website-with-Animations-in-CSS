@@ -14,6 +14,7 @@ CHANGES:
 TO DO:
     -fix header logo image as doesn't scale well
     -general sizing + alignment changes
+    -fix how it works hover on desktop
     -animations
         -menu page dish load in animations
         -menu page dish favourite animations - animation mostly done, fix text wrapping and icon overlap at start of animation
@@ -25,3 +26,5 @@ QUESTIONS:
     -header image scaling in mobile but not others?
     -better way of spacing cards out on homepage to make more even and consistent with screen width scaling?
     -text hiding for menu buttons?
+    -clarify animation spec - desktop only?
+    -loading animation - how to hide once completed so page contents are usable? 

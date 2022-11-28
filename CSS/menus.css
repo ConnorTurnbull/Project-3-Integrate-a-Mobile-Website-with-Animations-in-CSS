@@ -118,6 +118,7 @@ h3 {
   font-size: 1rem;
   padding: 1rem;
   width: 100%;
+  cursor: pointer;
 }
 .main .menus .menu-button .text {
   margin-right: auto;
@@ -235,13 +236,31 @@ h3 {
     gap: 1rem;
   }
   .main .menus .entrees {
+    opacity: 0;
     width: 35%;
+    animation: scroll 0.5s ease-in-out forwards, fade 1.5s linear forwards;
   }
   .main .menus .mains {
+    opacity: 0;
     width: 35%;
+    animation: scroll 0.5s ease-in-out forwards, fade 1.5s linear forwards;
+    animation-delay: 300ms;
   }
   .main .menus .deserts {
+    opacity: 0;
     width: 35%;
+    animation: scroll 0.5s ease-in-out forwards, fade 1.5s linear forwards;
+    animation-delay: 600ms;
+  }
+  @keyframes fade {
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes scroll {
+    to {
+      transform: translateY(-50px);
+    }
   }
   .main .menu-button {
     width: 100%;

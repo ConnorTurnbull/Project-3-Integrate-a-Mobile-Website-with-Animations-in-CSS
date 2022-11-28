@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 5rem;
+    font-size: 2rem;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 1000px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.menu-box-1 {
+    width: 30%;
+    height: 25rem;
+    border: 2px solid black;
+    text-align: center;
+    animation: slide 0.5s ease-in-out forwards, fade 1.5s linear forwards;
+    opacity: 0;
+}
+
+.menu-box-2 {
+    width: 30%;
+    height: 25rem;
+    border: 2px solid black;
+    text-align: center;
+    animation: slide 0.5s ease-in-out forwards, fade 1.5s linear forwards;
+    animation-delay: 300ms;
+    opacity: 0;
+}
+
+.menu-box-3 {
+    width: 30%;
+    height: 25rem;
+    border: 2px solid black;
+    text-align: center;
+    animation: slide 0.5s ease-in-out forwards, fade 1.5s linear forwards;
+    animation-delay: 600ms;
+    opacity: 0;
+}
+
+@keyframes fade {
+    100% {
+        opacity: 1;
+        
+    }
+}
+
+@keyframes slide {
+    to {
+        transform: translateY(-50px);
+
+    }
+}
