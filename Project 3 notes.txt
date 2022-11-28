@@ -8,6 +8,7 @@ CHANGES:
     MENU PAGES:
         -favourite animations added
         -sizing/alignment changes
+        -dish/course load in animations
 
     OTHER:
 
@@ -15,9 +16,6 @@ TO DO:
     -fix header logo image as doesn't scale well
     -general sizing + alignment changes
     -fix how it works hover on desktop
-    -animations
-        -menu page dish load in animations
-        -menu page dish favourite animations - animation mostly done, fix text wrapping and icon overlap at start of animation
     -fix restaurant images in menu pages on desktop
     -validator cleanup
     

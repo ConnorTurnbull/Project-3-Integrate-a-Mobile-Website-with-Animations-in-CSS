@@ -116,7 +116,7 @@ h3 {
   display: flex;
   font-family: "Roboto";
   font-size: 1rem;
-  padding: 1rem;
+  padding: 0;
   width: 100%;
   cursor: pointer;
 }
@@ -124,6 +124,7 @@ h3 {
   margin-right: auto;
   text-align: left;
   width: 70%;
+  padding: 1rem;
 }
 .main .menus .menu-button .dish {
   margin: 0;
@@ -139,6 +140,7 @@ h3 {
   font-weight: bold;
   align-self: flex-end;
   text-align: end;
+  padding: 1rem;
   width: 20%;
 }
 .main .menus .menu-button .icon {
@@ -283,7 +285,6 @@ h3 {
   }
   .main .menu-button:hover .icon-container {
     animation: slide 0.5s linear forwards;
-    margin-left: 1rem;
   }
   .main .menu-button:hover .icon {
     animation: rotate 0.5s linear forwards;

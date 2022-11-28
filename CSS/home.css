@@ -205,12 +205,12 @@ h3 {
 }
 .restaurants .new {
   display: flex;
-  width: 80px;
-  height: 30px;
+  width: 5rem;
+  height: 2rem;
   background-color: #99e2d0;
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 1rem;
+  right: 1rem;
   align-items: center;
   justify-content: center;
   font-size: 0.9rem;
@@ -338,7 +338,6 @@ h3 {
   .restaurants .card .description {
     width: 100%;
     height: 20%;
-    /* hover area */
   }
   .restaurants .card .description .heart-container {
     width: 20%;
@@ -399,6 +398,11 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .restaurants .card .new {
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.2rem;
   }
   .restaurants .card .image {
     width: 100%;
