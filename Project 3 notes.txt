@@ -1,14 +1,10 @@
 CHANGES:
 
     HOME PAGE:
-        -sizing changes
-        -heart animations fixed w/ correct coloring
-        -loading spinner animation
+        -fixed loading animation
         
     MENU PAGES:
-        -favourite animations added
-        -sizing/alignment changes
-        -dish/course load in animations
+        
 
     OTHER:
 
@@ -17,12 +13,16 @@ TO DO:
     -general sizing + alignment changes
     -fix how it works hover on desktop
     -fix restaurant images in menu pages on desktop
+    -fix heart icons on mobile/tablet
     -validator cleanup
+    -fix contact anchor size in footer
     
 QUESTIONS:
     -scaling, feels okay at 1080 but gets too big beyond that - best way to approach?
     -header image scaling in mobile but not others?
     -better way of spacing cards out on homepage to make more even and consistent with screen width scaling?
-    -text hiding for menu buttons?
+    -text hiding for menu buttons? - whitespace nowrap + ellipsis
     -clarify animation spec - desktop only?
     -loading animation - how to hide once completed so page contents are usable? 
+
+    accessit3ch

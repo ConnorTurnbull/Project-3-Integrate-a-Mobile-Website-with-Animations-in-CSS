@@ -10,48 +10,63 @@
 
 .body {
     @include body;
+  
+}
 
-    .loading {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        background: rgb(211, 211, 211, 80%);
-        animation: fade 5s linear forwards;
-        
-        position: fixed;
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgb(211, 211, 211, 80%);
+    animation: fade 5s linear forwards;
+    position: fixed;
+    z-index: -5;
+}
+
+.loading::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border: 10px solid #dddddd;
+    border-color: $color-mid-grey;
+    border-top-color: $color-purple;
+    border-radius: 50%;
+    animation: loading 1s linear infinite;
+}
+
+@keyframes fade {
+    100% {
+        opacity: 0%;
     }
 
-    .loading::before {
-        content: '';
-        width: 50px;
-        height: 50px;
-        border: 10px solid #dddddd;
-        border-color: $color-mid-grey;
-        border-top-color: $color-purple;
-        border-radius: 50%;
-        animation: loading 1s linear infinite;
+    0% {
+        opacity: 100%;
     }
+}
+
+@keyframes loading {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.page-container {
+    animation: fade-in 5s linear forwards;
+    z-index: 100;
     
-    @keyframes fade {
-        0%, 100% {
+    @keyframes fade-in {
+        0% {
             opacity: 0;
-            display: none;
+
         }
         
-        50% {
+        100% {
             opacity: 100%;
+
         }
-    }
-    
-    @keyframes loading {
-        to {
-            transform: rotate(360deg);
-        }
-    }
-    
-       
+    }    
 }
 
 .header {
@@ -124,11 +139,12 @@
         border-radius: 2rem;
         box-shadow: 0px 2px 20px 0px rgba(181,181,181,0.5);
         display: flex;
-        &::hover {
+        
+        .button:hover {
             background-color: $color-light-purple;
 
         }
-        &::hover .icon {
+        .button:hover .icon {
             color: $color-purple;
 
         }
