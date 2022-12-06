@@ -2,6 +2,8 @@ CHANGES:
 
     HOME PAGE:
         -fixed loading animation
+        -fixed "How It Work" hover animations
+        -fixed contact anchor size in footer
         
     MENU PAGES:
         
@@ -11,11 +13,10 @@ CHANGES:
 TO DO:
     -fix header logo image as doesn't scale well
     -general sizing + alignment changes
-    -fix how it works hover on desktop
     -fix restaurant images in menu pages on desktop
     -fix heart icons on mobile/tablet
     -validator cleanup
-    -fix contact anchor size in footer
+
     
 QUESTIONS:
     -scaling, feels okay at 1080 but gets too big beyond that - best way to approach?

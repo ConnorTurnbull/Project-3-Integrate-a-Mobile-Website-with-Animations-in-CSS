@@ -128,7 +128,7 @@
 
     }
 
-    .button {
+    .hiw-button {
         width: 100%;
         background-color: $color-light-grey;
         border: none;
@@ -286,7 +286,7 @@
             flex-direction: row;
         }
     
-        .button {
+        .hiw-button {
             font-size: 1.2rem;
 
         }
@@ -380,18 +380,18 @@
     .how-it-works {
         padding: 3rem;
 
-        .button {
+        .hiw-button {
             font-size: 1.6rem;
+
+        }
         
-            .button:hover {
-                background-color: $color-light-purple;
+        .hiw-button:hover {
+            background-color: $color-light-purple;
 
-            }
+        }
 
-            .button:hover .icon {
-                color: $color-purple;
-
-            }
+        .hiw-button:hover .icon {
+            color: $color-purple;
 
         }
               
