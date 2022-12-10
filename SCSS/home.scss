@@ -158,6 +158,16 @@ html {
         display: flex;
     }    
 
+    .hiw-button:active {
+        background-color: $color-light-purple;
+
+    }
+
+    .hiw-button:active .icon {
+        color: $color-purple;
+
+    }
+
     .number {
         font-style: normal;
         font-weight: lighter;
@@ -362,6 +372,17 @@ html {
 
     }
 
+    .nav {
+        
+        font-size: 1.6rem;
+        
+        .button {
+            font-size: 1.6rem;
+
+        }
+
+    }
+
     .how-it-works {
         
         .list {
@@ -380,56 +401,58 @@ html {
         .card {
             flex-direction: row;
             border-radius: 2rem;
-        }
 
-        .description {
-            width: 50%;
+            .description {
+                width: 50%;
 
-            .heart-container {
-                padding: 3rem 0rem;
+                .heart-container {
+                    padding: 3rem 0rem;
+
+                }
+
+                .fa-regular {
+                    font-size: 2.5rem;
+
+                }
+
+                .heart a .fa-solid {
+                    font-size: 2.5rem;
+                    bottom: 0rem;
+                }
+            }
+
+            .text {
+                font-size: 1.6rem;
+                padding: 3rem 1rem;
 
             }
 
-            .fa-regular {
-                font-size: 2.5rem;
+            .image {
+                height: 100%;
+                border-radius: 2rem;
+                width: 100%;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            .link {
+                height: 100%;
+                width: 50%;
 
             }
 
-            .heart a .fa-solid {
-                font-size: 2.5rem;
-                bottom: 0rem;
+            .new {
+                left: 15px;
             }
         }
-
-        .text {
-            font-size: 1.8rem;
-            padding: 3rem 1rem;
-
-        }
-
-        .image {
-            height: 100%;
-            border-radius: 2rem;
-            width: 100%;
-        }
-
-        .link {
-            height: 100%;
-            width: 55%;
-
-        }
-
-        .new {
-            left: 15px;
-        }
-
-    .footer {
+    
+        .footer {
 
         .list {
             font-size: 1.2rem;
         }
 
-    }
+        }
     }
 }
 

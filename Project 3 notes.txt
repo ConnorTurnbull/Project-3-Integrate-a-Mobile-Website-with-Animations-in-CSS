@@ -7,14 +7,15 @@ CHANGES:
         -fixed heart icon/animations on mobile/tablet
         -fixed header logo image
         -fixed restaurant images in menu pages on desktop
-
+        -validator cleanup done
+    
     MENU PAGES:
         
 
     OTHER:
 
 TO DO:
-    -validator cleanup
+   
 
     
 QUESTIONS:

@@ -117,7 +117,7 @@ html {
 }
 .nav .button {
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background-image: linear-gradient(#ff79da, #9356DC);
   border-radius: 2rem;
   padding: 1rem;
@@ -156,6 +156,12 @@ html {
   border-radius: 2rem;
   box-shadow: 0px 2px 20px 0px rgba(181, 181, 181, 0.5);
   display: flex;
+}
+.how-it-works .hiw-button:active {
+  background-color: #f5edff;
+}
+.how-it-works .hiw-button:active .icon {
+  color: #9356DC;
 }
 .how-it-works .number {
   font-style: normal;
@@ -330,6 +336,12 @@ html {
   .location .location-pin {
     font-size: 2rem;
   }
+  .nav {
+    font-size: 1.6rem;
+  }
+  .nav .button {
+    font-size: 1.6rem;
+  }
   .how-it-works .list {
     flex-direction: row;
   }
@@ -340,33 +352,35 @@ html {
     flex-direction: row;
     border-radius: 2rem;
   }
-  .restaurants .description {
+  .restaurants .card .description {
     width: 50%;
   }
-  .restaurants .description .heart-container {
+  .restaurants .card .description .heart-container {
     padding: 3rem 0rem;
   }
-  .restaurants .description .fa-regular {
+  .restaurants .card .description .fa-regular {
     font-size: 2.5rem;
   }
-  .restaurants .description .heart a .fa-solid {
+  .restaurants .card .description .heart a .fa-solid {
     font-size: 2.5rem;
     bottom: 0rem;
   }
-  .restaurants .text {
-    font-size: 1.8rem;
+  .restaurants .card .text {
+    font-size: 1.6rem;
     padding: 3rem 1rem;
   }
-  .restaurants .image {
+  .restaurants .card .image {
     height: 100%;
     border-radius: 2rem;
     width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
-  .restaurants .link {
+  .restaurants .card .link {
     height: 100%;
-    width: 55%;
+    width: 50%;
   }
-  .restaurants .new {
+  .restaurants .card .new {
     left: 15px;
   }
   .restaurants .footer .list {
