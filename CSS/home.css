@@ -24,6 +24,10 @@ h3 {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .body {
   font-family: "Roboto";
   font-size: 1.2rem;
@@ -79,14 +83,15 @@ h3 {
   }
 }
 
+/* MOBILE */
 .header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 150px;
+  height: 10rem;
 }
 .header .main-logo {
-  padding: 1.5rem 5rem;
+  padding: 3rem 5rem;
   height: 100%;
   box-shadow: 0px 2px 5px 0px #B5B5B5;
 }
@@ -117,6 +122,12 @@ h3 {
   border-radius: 2rem;
   padding: 1rem;
   border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav .button a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .how-it-works {
@@ -124,12 +135,15 @@ h3 {
   padding: 1.5rem;
   margin: 3rem 0rem;
 }
-.how-it-works .list {
+.how-it-works .list-container {
   display: flex;
   flex-direction: column;
   padding: 0;
   margin-top: 3rem;
   gap: 2rem;
+}
+.how-it-works .list-container .list {
+  list-style: none;
 }
 .how-it-works .hiw-button {
   width: 100%;
@@ -178,13 +192,65 @@ h3 {
   position: relative;
   background-color: white;
 }
-.restaurants .description {
+.restaurants .card .description {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 20%;
 }
-.restaurants .text {
+.restaurants .card .description .heart-container {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.restaurants .card .description .heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+}
+.restaurants .card .description .heart a {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+}
+.restaurants .card .description .fa-regular {
+  font-size: 2rem;
+  position: absolute;
+  z-index: 3;
+}
+.restaurants .card .description .solid-icon {
+  background: linear-gradient(#9356DC, #ff79da);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.restaurants .card .description .heart a .fa-solid {
+  font-size: 2rem;
+  position: relative;
+  z-index: 1;
+  bottom: -0.5rem;
+}
+.restaurants .card .description .heart a::after {
+  content: "";
+  width: 100%;
+  height: 3rem;
+  top: 0rem;
+  left: 0;
+  background: white;
+  position: absolute;
+  transition: 2s;
+  z-index: 3;
+}
+.restaurants .card .description .heart:active a::after {
+  top: -90px;
+}
+.restaurants .card .text {
   width: 80%;
   height: 100%;
   padding: 0rem 1rem;
@@ -193,26 +259,26 @@ h3 {
   justify-content: center;
   font-size: 1.3rem;
 }
-.restaurants .image {
+.restaurants .card .image {
   width: 100%;
   height: 100%;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   object-fit: cover;
 }
-.restaurants .link {
+.restaurants .card .link {
   height: 80%;
 }
-.restaurants .name {
+.restaurants .card .name {
   width: 100%;
   margin: 0;
   font-weight: bold;
 }
-.restaurants .city {
+.restaurants .card .city {
   width: 100%;
   margin: 0;
 }
-.restaurants .new {
+.restaurants .card .new {
   display: flex;
   width: 5rem;
   height: 2rem;
@@ -253,6 +319,7 @@ h3 {
   color: inherit;
 }
 
+/* TABLET */
 @media (min-width: 768px) {
   .body {
     font-size: 1.8rem;
@@ -276,6 +343,16 @@ h3 {
   .restaurants .description {
     width: 50%;
   }
+  .restaurants .description .heart-container {
+    padding: 3rem 0rem;
+  }
+  .restaurants .description .fa-regular {
+    font-size: 2.5rem;
+  }
+  .restaurants .description .heart a .fa-solid {
+    font-size: 2.5rem;
+    bottom: 0rem;
+  }
   .restaurants .text {
     font-size: 1.8rem;
     padding: 3rem 1rem;
@@ -296,6 +373,7 @@ h3 {
     font-size: 1.2rem;
   }
 }
+/* DESKTOP */
 @media (min-width: 992px) {
   .body {
     font-size: 2rem;
@@ -390,6 +468,7 @@ h3 {
     font-size: 3rem;
     position: relative;
     z-index: 1;
+    bottom: 0;
   }
   .restaurants .card .description .heart a::after {
     content: "";

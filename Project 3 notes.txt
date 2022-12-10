@@ -4,17 +4,16 @@ CHANGES:
         -fixed loading animation
         -fixed "How It Work" hover animations
         -fixed contact anchor size in footer
-        
+        -fixed heart icon/animations on mobile/tablet
+        -fixed header logo image
+        -fixed restaurant images in menu pages on desktop
+
     MENU PAGES:
         
 
     OTHER:
 
 TO DO:
-    -fix header logo image as doesn't scale well
-    -general sizing + alignment changes
-    -fix restaurant images in menu pages on desktop
-    -fix heart icons on mobile/tablet
     -validator cleanup
 
     
