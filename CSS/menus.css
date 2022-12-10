@@ -28,6 +28,7 @@ h3 {
   font-family: "Roboto";
   font-size: 1.2rem;
   margin: 0;
+  position: relative;
 }
 
 /* MOBILE */
@@ -222,7 +223,6 @@ h3 {
   padding: 1rem;
   color: white;
   position: absolute;
-  top: 115%;
 }
 .footer .logo {
   font-weight: lighter;

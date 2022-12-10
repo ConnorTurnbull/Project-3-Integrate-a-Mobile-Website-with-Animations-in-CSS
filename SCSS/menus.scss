@@ -10,6 +10,7 @@
 
 .body {
     @include body;
+    position: relative;
 }
 
  /* MOBILE */
@@ -244,7 +245,6 @@
 .footer {
     @include footer;
     position: absolute;
-    top: 115%;
 
     .link {
         text-decoration: none;
