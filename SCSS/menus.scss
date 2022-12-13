@@ -114,6 +114,8 @@
             display: flex;
             flex-direction: column;   
             gap: 1rem;
+            opacity: 0;
+            animation: scroll 0.5s ease-in-out forwards, fade 1.5s linear forwards;
 
         }
 
@@ -121,13 +123,32 @@
             display: flex;
             flex-direction: column;   
             gap: 1rem;
-
+            opacity: 0;
+            animation: scroll 0.5s ease-in-out forwards, fade 1.5s linear forwards;
+            animation-delay: 300ms;
         }
 
         .deserts {
             display: flex;
             flex-direction: column;   
             gap: 1rem;
+            opacity: 0;
+            animation: scroll 0.5s ease-in-out forwards, fade 1.5s linear forwards;
+            animation-delay: 600ms;
+        }
+
+        @keyframes fade {
+            100% {
+                opacity: 1;
+
+            }
+        }
+
+        @keyframes scroll {
+            to {
+                transform: translateY(-20px);
+
+            }
 
         }
 
@@ -363,7 +384,8 @@
     }
 
     .main {
-
+        margin-top: 45%;
+        
         .menus {
             flex-direction: row;
             justify-content: center;
@@ -413,8 +435,6 @@
     
         } 
         
-
-
         .icon-container {
             color: white;
             background-color: aquamarine;
@@ -464,7 +484,6 @@
             }
         
         }
-
 
         .button {
             width: 32.5%;
