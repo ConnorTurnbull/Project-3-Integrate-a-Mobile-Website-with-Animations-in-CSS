@@ -25,7 +25,7 @@ html {
     height: 100%;
     width: 100%;
     background: rgb(211, 211, 211, 80%);
-    animation: fade 5s linear forwards;
+    animation: fade 3s linear forwards;
     position: fixed;
     z-index: -5;
 }
@@ -509,7 +509,7 @@ html {
         
         .hiw-button:hover {
             background-color: $color-light-purple;
-
+            cursor: pointer;
         }
 
         .hiw-button:hover .icon {
