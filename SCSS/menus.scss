@@ -158,7 +158,7 @@
             border-radius: 1rem;
             display: flex;
             font-family: $font-main;
-            font-size: 1rem;
+            font-size: 1.4rem;
             padding: 0;
             width: 100%;
             height: 5rem;
@@ -169,19 +169,23 @@
                 text-align: left;
                 width: 70%;
                 padding: 1rem;
-                
-                
             }
     
             .dish {
                 margin: 0;
                 font-weight: bold;
                 line-height: 1.5;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
             }
     
             .sub-text {
                 margin: 0;
-                font-size: 0.8rem;
+                font-size: 1.2rem;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
             }
     
             .price {
