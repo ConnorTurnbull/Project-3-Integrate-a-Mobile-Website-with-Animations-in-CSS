@@ -21,8 +21,8 @@ Anissa is in the process of contacting the restaurants for this project. When sh
 
 With the team, you decide that the prototype will contain these four menus.  
 
-Here is the [brief](Resources/Creative Brief - Ohmyfood!.pdf) you draw up with the CTO, Paul.
-Back at your desk, you find the [mock-ups](Resources/Projet 3 - ohmyfood EN/mockups) of the site in your mailbox, sent by Emily.
+Here is the [brief](https://github.com/ConnorTurnbull/Project-3-Integrate-a-Mobile-Website-with-Animations-in-CSS/blob/main/Resources/Creative%20Brief%20-%20Ohmyfood!.pdf) you draw up with the CTO, Paul.
+Back at your desk, you find the [mock-ups](https://github.com/ConnorTurnbull/Project-3-Integrate-a-Mobile-Website-with-Animations-in-CSS/tree/main/Resources/Projet%203%20-%20ohmyfood%20EN/mockups) of the site in your mailbox, sent by Emily.
 
 ![Homepage](https://github.com/ConnorTurnbull/Project-3-Integrate-a-Mobile-Website-with-Animations-in-CSS/assets/110614970/f83f9ecd-27e1-42c2-9953-d69145ecf96e)
 
