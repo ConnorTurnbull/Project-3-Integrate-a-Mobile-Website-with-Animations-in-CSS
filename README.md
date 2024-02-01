@@ -1,6 +1,6 @@
-# Project 3 - Integrate-a-Mobile-Website-with-Animations-in-CSS
+# Project 3 - Integrate a mobile website with animations in CSS
 
-Scenario
+<b>Scenario</b>
 
 You have just been recruited at Ohmyfood as a junior developer. Congratulations!
 
@@ -10,10 +10,10 @@ You are one of the four lucky ones who have the chance to work on this project.
 
 The team is composed of :
 
-Paul, the CTO of the future site.
-Emily, the UX designer, recruited to create the site’s UI design.
-Anissa, the sales representative in charge of canvassing the restaurants.
-You, in charge of the development of the site.
+- Paul, the CTO of the future site.
+- Emily, the UX designer, recruited to create the site’s UI design.
+- Anissa, the sales representative in charge of canvassing the restaurants.
+- You, in charge of the development of the site.
 
 Anissa is in the process of contacting the restaurants for this project. When she runs into you at the coffee machine, she says: 
 
@@ -21,8 +21,8 @@ Anissa is in the process of contacting the restaurants for this project. When sh
 
 With the team, you decide that the prototype will contain these four menus.  
 
-Here is the brief you draw up with the CTO, Paul.
-Back at your desk, you find the mock-ups of the site in your mailbox, sent by Emily.
+Here is the [brief](Resources/Creative Brief - Ohmyfood!.pdf) you draw up with the CTO, Paul.
+Back at your desk, you find the [mock-ups](Resources/Projet 3 - ohmyfood EN/mockups) of the site in your mailbox, sent by Emily.
 
 ![Homepage](https://github.com/ConnorTurnbull/Project-3-Integrate-a-Mobile-Website-with-Animations-in-CSS/assets/110614970/f83f9ecd-27e1-42c2-9953-d69145ecf96e)
 
