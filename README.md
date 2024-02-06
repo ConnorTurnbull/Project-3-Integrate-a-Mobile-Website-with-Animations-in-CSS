@@ -1,6 +1,16 @@
 # Project 3 - Integrate a mobile website with animations in CSS
 
-<b>Scenario</b>
+<h2>Overview</h2>
+The aim of this project was to create multiple web pages for a mobile only site from the provided mockups. The pages are built using HTML with styling and animations done using SASS/CSS. 
+<h2>Instructions</h2>
+- Use live server or similar</br>
+OR</br>
+- Open "index.html" in web browser.
+<h2>Tech Stack</h2>
+- HTML5 <br/>
+- CSS3 <br/>
+- Sass
+<h2>Scenario</h2>
 
 You have just been recruited at Ohmyfood as a junior developer. Congratulations!
 
